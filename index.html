@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Fit Line Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Best Fit Line Calculator</h1>
+        <form id="dataForm">
+            <label for="dataPoints">Enter data points (x,y):</label>
+            <textarea id="dataPoints" rows="10" placeholder="e.g., 1,2\n3,4\n5,6"></textarea>
+            <button type="submit">Calculate Best Fit Line</button>
+        </form>
+        <canvas id="myChart"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
